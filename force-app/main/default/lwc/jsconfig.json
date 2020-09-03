@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/boatSearch": [
+                "boatSearch/boatSearch.js"
+            ],
+            "c/boatSearchForm": [
+                "boatSearchForm/boatSearchForm.js"
+            ],
+            "c/boatSearchResults": [
+                "boatSearchResults/boatSearchResults.js"
+            ],
+            "c/boatTile": [
+                "boatTile/boatTile.js"
+            ],
+            "c/contactCreator": [
+                "contactCreator/contactCreator.js"
+            ],
+            "c/contactList": [
+                "contactList/contactList.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

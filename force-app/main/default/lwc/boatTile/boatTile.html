@@ -1,0 +1,13 @@
+<template>
+    <div onclick={selectBoat} class={tileClass}>
+      <div style={backgroundStyle} class="tile"></div>
+      <div class="lower-third" onclick={selectBoat}>
+          <h1 class="slds-truncate slds-text-heading_medium">{boat.Name}</h1>
+          <h2 class="slds-truncate slds-text-heading_small">TODO: Boat owner name</h2>
+          <!-- The boat price must use a Lightning formatted number, with a maximum of two fraction digits, in a <div> that uses the slds-text-body_small class.
+            The boat length must be in a <div> that uses the slds-text-body_small class.
+            The boat type must be in a <div> that uses the slds-text-body_small class. -->
+      </div>
+    </div>
+  </template>
+  
